@@ -1,0 +1,85 @@
+/* // @import 'fonts';
+
+// $font-title: 'Good Times';
+// $font-paragraph: 'Lato Regular';
+// $font-paragraphBlack: 'Lato Black';
+// $primary-color: #000;
+// $secondary-color: #fff; */
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+#btn_volverHome {
+  top: 1.5%;
+  background: url("../img/botones/botonVolver.png")center no-repeat;
+  background-size: 100%;
+  width: 60px;
+  height: 60px;
+  filter: grayscale(100%);
+  cursor: pointer;
+  position: fixed;
+  z-index: 100;
+  transition: 0.3s;
+}
+
+#btn_volverHome:hover {
+  filter: grayscale(0%);
+}
+
+#btn_volverHome a {
+  width: 60px;
+  height: 60px;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  position: absolute;
+}
+
+#btn_volverHome p {
+  font-family: 'Good Times';
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  text-indent: 1px;
+  bottom: -30%;
+  position: absolute;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  height: 10px;
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+#particlesJs {
+  position: absolute;
+}
+
+.letraSelect{
+  color: #DF8D3A;
+}

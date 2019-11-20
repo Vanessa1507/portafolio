@@ -1,0 +1,93 @@
+#contenedor_MenuProyectos {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+}
+
+#particlesJs1,
+#particlesJs2,
+#particlesJs3 {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+
+.items_menu {
+    width: 33.33%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+
+.items_menu h1 {
+    font-family: 'Good Times';
+    font-size: 10em;
+    margin-bottom: 4%;
+}
+
+.items_menu h2 {
+    font-family: 'Good Times';
+    font-size: 2em;
+}
+
+#elemento1 {
+    background-position: left;
+    border-right: 10px solid #fff;
+
+    transition: 1s;
+}
+
+#elemento1:hover {
+    background-color: #201346;
+    background-image: linear-gradient(#E74752, #541346, #201346);
+    background-position: left;
+}
+
+#elemento2:hover {
+    background-color: #001338;
+    background-image: linear-gradient(#16B4EA, #005289, #001338);
+    background-position: center;
+}
+
+#elemento3 {
+    border-left: 10px solid #fff;
+
+}
+
+#elemento3:hover {
+    background-color: #040431;
+    background-image: linear-gradient(#0B0AA2, #040431);
+    background-position: right;
+}
+
+.instruccion {
+    position: absolute;
+    bottom: 0;
+    padding: 0% 0% 6%;
+    font-family: 'Lato Black';
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+.instruccion p {
+    line-height: 1.6em;
+}
+
+.instruccion em {
+    font-family: 'Lato Regular';
+}
+
+.items_menu {
+    cursor: pointer;
+}
+
+#btn_volverHome {
+    right: 1.5%;
+}

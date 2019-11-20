@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Good Times';
+    src: url('../fonts/goodTimes.ttf') format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato Regular';
+    src: url('../fonts/latoRegular.ttf') format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato Black';
+    src: url('../fonts/latoBlack.ttf') format('truetype');
+    font-style: normal;
+}

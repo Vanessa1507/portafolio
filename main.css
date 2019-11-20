@@ -1,0 +1,468 @@
+#contenedor_home {
+    position: relative;
+    height: 100vh;
+    color: #fff;
+}
+
+#particlesJs {
+    width: 100vw;
+    height: 100vh;
+}
+
+#home_principal {
+    height: 85vh;
+    display: flex;
+    align-content: center;
+    align-items: center;
+
+}
+
+#contenedor_imagen {
+    zoom: 0.3;
+    position: absolute;
+    top: 8%;
+    left: 27%;
+}
+
+#contenedor_yo{
+    position: absolute;
+    top: 37%;
+    left: 38%;
+}
+
+#contenedor_yo h1 {
+    font-family: 'Good Times';
+    font-size: 3.4em;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+#contenedor_yo h3 {
+    font-family: 'Good Times';
+    font-size: 1em;
+    text-transform: uppercase;
+    text-align: right;
+    margin: 3% 0 0;
+}
+
+#home_instruccion {
+    height: 15vh;
+    padding: 1% 0% 0%;
+    font-family: 'Lato Black';
+    font-size: 1.4em;
+    text-transform: uppercase;
+}
+
+#home_instruccion p {
+    line-height: 1.6em;
+    text-align: center;
+}
+
+#home_instruccion em {
+    font-family: 'Lato Regular';
+}
+
+/* Elementos */
+.el_home {
+    position: absolute;
+}
+
+/* Circulos */
+#circuloGrande {
+    background-image: url("./img/home/spriteHome.png");
+    background-position: -10px -12px;
+    left: 228px;
+    top: 88px;
+    width: 1711px;
+    height: 1711px;
+    z-index: 3;
+}
+
+#circuloMediano {
+    background-image: url("./img/home/spriteHome.png");
+    background-position: -1772px -12px;
+    left: 340px;
+    top: 200px;
+    width: 1488px;
+    height: 1488px;
+    z-index: 4;
+}
+
+/* Barra */
+#barra {
+    background-image: url("./img/home/spriteHome.png");
+    background-position: -3260px -1399px;
+    left: 283px;
+    top: 552px;
+    width: 464px;
+    height: 68px;
+    z-index: 32;
+}
+
+/* Lineas */
+#grupo_lineas {
+    left: 634px;
+    top: 105px;
+    width: 352px;
+    height: 352px;
+    z-index: 22;
+}
+
+#grupo_lineas div {
+    position: absolute;
+}
+
+#grupo_lineas #linea1 {
+    background-image: url("./img/home/spriteHome.png");
+    background-position: -1772px -1555px;
+    left: 13px;
+    top: 13px;
+    width: 98px;
+    height: 97px;
+    z-index: 7;
+}
+
+#grupo_lineas #linea2 {
+    background-image: url("./img/home/spriteHome.png");
+    background-position: -1906px -1555px;
+    left: 1px;
+    top: 1px;
+    width: 154px;
+    height: 154px;
+    z-index: 8;
+}
+
+#grupo_lineas #linea3 {
+    background-image: url("./img/home/spriteHome.png");
+    background-position: -2086px -1555px;
+    left: 0px;
+    top: 0px;
+    width: 189px;
+    height: 189px;
+    z-index: 9;
+}
+
+#grupo_lineas #linea4 {
+    background-image: url("./img/home/spriteHome.png");
+    background-position: -2319px -1555px;
+    left: 3px;
+    top: 3px;
+    width: 215px;
+    height: 215px;
+    z-index: 10;
+}
+
+#grupo_lineas #linea5 {
+    background-image: url("./img/home/spriteHome.png");
+    background-position: -2560px -1555px;
+    left: 10px;
+    top: 10px;
+    width: 233px;
+    height: 233px;
+    z-index: 11;
+}
+
+#grupo_lineas #linea6 {
+    background-image: url("./img/home/spriteHome.png");
+    background-position: -2837px -1555px;
+    left: 20px;
+    top: 20px;
+    width: 246px;
+    height: 245px;
+    z-index: 12;
+}
+
+#grupo_lineas #linea7 {
+    background-image: url("./img/home/spriteHome.png");
+    background-position: -3134px -1555px;
+    left: 33px;
+    top: 33px;
+    width: 252px;
+    height: 252px;
+    z-index: 13;
+}
+
+#grupo_lineas #linea8 {
+    background-image: url("./img/home/spriteHome.png");
+    background-position: -3430px -1555px;
+    left: 48px;
+    top: 48px;
+    width: 255px;
+    height: 255px;
+    z-index: 14;
+}
+
+#grupo_lineas #linea9 {
+    background-image: url("./img/home/spriteHome.png");
+    background-position: -3711px -1555px;
+    left: 66px;
+    top: 65px;
+    width: 252px;
+    height: 253px;
+    z-index: 15;
+}
+
+#grupo_lineas #linea10 {
+    background-image: url("./img/home/spriteHome.png");
+    background-position: -1658px -1770px;
+    left: 85px;
+    top: 85px;
+    width: 246px;
+    height: 246px;
+    z-index: 16;
+}
+
+#grupo_lineas #linea11 {
+    background-image: url("./img/home/spriteHome.png");
+    background-position: -1930px -1782px;
+    left: 107px;
+    top: 107px;
+    width: 235px;
+    height: 234px;
+    z-index: 17;
+}
+
+#grupo_lineas #linea12 {
+    background-image: url("./img/home/spriteHome.png");
+    background-position: -2182px -1807px;
+    left: 132px;
+    top: 132px;
+    width: 217px;
+    height: 217px;
+    z-index: 18;
+}
+
+#grupo_lineas #linea13 {
+    background-image: url("./img/home/spriteHome.png");
+    background-position: -2420px -1834px;
+    left: 160px;
+    top: 160px;
+    width: 192px;
+    height: 192px;
+    z-index: 19;
+}
+
+#grupo_lineas #linea14 {
+    background-image: url("./img/home/spriteHome.png");
+    background-position: -2633px -1867px;
+    left: 194px;
+    top: 194px;
+    width: 158px;
+    height: 157px;
+    z-index: 20;
+}
+
+#grupo_lineas #linea15 {
+    background-image: url("./img/home/spriteHome.png");
+    background-position: -2837px -1920px;
+    left: 237px;
+    top: 237px;
+    width: 104px;
+    height: 104px;
+    z-index: 21;
+}
+
+/* puntos */
+#grupo_puntos {
+    left: 1401px;
+    top: 0px;
+    width: 424px;
+    height: 104px;
+    z-index: 29;
+}
+
+#grupo_puntos div {
+    position: absolute;
+}
+
+#grupo_puntos #punto1 {
+    background-image: url("./img/home/spriteHome.png");
+    background-position: -3941px -12px;
+    left: 0px;
+    top: 0px;
+    width: 104px;
+    height: 104px;
+    z-index: 2;
+}
+
+#grupo_puntos #punto2 {
+    background-image: url("./img/home/spriteHome.png");
+    background-position: -3953px -214px;
+    left: 223px;
+    top: 72px;
+    width: 21px;
+    height: 22px;
+    z-index: 3;
+}
+
+#grupo_puntos #punto3 {
+    background-image: url("./img/home/spriteHome.png");
+    background-position: -4013px -214px;
+    left: 283px;
+    top: 72px;
+    width: 21px;
+    height: 22px;
+    z-index: 4;
+}
+
+#grupo_puntos #punto4 {
+    background-image: url("./img/home/spriteHome.png");
+    background-position: -3953px -154px;
+    left: 342px;
+    top: 72px;
+    width: 22px;
+    height: 22px;
+    z-index: 5;
+}
+
+#grupo_puntos #punto5 {
+    background-image: url("./img/home/spriteHome.png");
+    background-position: -4013px -154px;
+    left: 402px;
+    top: 72px;
+    width: 22px;
+    height: 22px;
+    z-index: 6;
+}
+
+/* Aros */
+#grupo_puntos #aro1 {
+    background-image: url("./img/home/spriteHome.png");
+    background-position: -3299px -651px;
+    left: 2044px;
+    top: 576px;
+    width: 217px;
+    height: 217px;
+    z-index: 30;
+}
+
+#grupo_puntos #aro2 {
+    background-image: url("./img/home/spriteHome.png");
+    background-position: -3786px -655px;
+    left: 1793px;
+    top: 1205px;
+    width: 158px;
+    height: 158px;
+    z-index: 31;
+}
+
+#grupo_puntos #aro3 {
+    background-image: url("./img/home/spriteHome.png");
+    background-position: -3567px -651px;
+    left: 13px;
+    top: 952px;
+    width: 165px;
+    height: 165px;
+    z-index: 33;
+}
+
+
+/* Botones */
+#cajaPerfil {
+    left: 57px;
+    top: 1118px;
+    width: 572px;
+    height: 571px;
+    z-index: 39;
+}
+
+#cajaPerfil  #aroPerfil {
+    background-image: url("./img/home/spriteHome.png");
+    background-position: -3299px -12px;
+    left: 0px;
+    top: 0px;
+    width: 572px;
+    height: 571px;
+    z-index: 2;
+}
+
+#cajaPerfil  #puntoPerfil {
+    background-image: url("./img/home/spriteHome.png");
+    background-position: -3930px -507px;
+    left: 38px;
+    top: 436px;
+    width: 104px;
+    height: 104px;
+    z-index: 4;
+}
+
+#cajaPerfil  div {
+    position: absolute;
+}
+
+#cajaPerfil button {
+    cursor: pointer;
+    background-color: #fff;
+    background: url("./img/home/botonPerfil.png") #fff center no-repeat;
+    background-size: 70%;
+    filter: grayscale(100%);
+    clip-path: circle(50% at center);
+    left: 111px;
+    top: 104px;
+    width: 356px;
+    height: 355px;
+    z-index: 3;
+    position: absolute;
+    transition: 0.3s;
+}
+
+#cajaPerfil button a{
+    left: 111px;
+    top: 104px;
+    width: 356px;
+    height: 355px;
+    z-index: 3;
+    position: absolute;
+}
+
+#cajaPerfil  button:hover{
+    filter: grayscale(0%);
+}
+
+#cajaPerfil  h2 {
+    top: 442px;
+    left: 287px;
+    letter-spacing: 0.5em;
+    font-family: 'Good Times';
+    font-size: 2.6em;
+    text-transform: uppercase;
+    text-align: center;
+    position: absolute;
+}
+
+#cajaContacto {
+    left: 1902px;
+    top: 139px;
+    width: 285px;
+    height: 285px;
+    z-index: 29;
+}
+
+#cajaContacto button {
+    cursor: pointer;
+    background-color: #fff;
+    background: url("./img/home/botonContanto.png") #fff center no-repeat;
+    background-size: 60%;
+    filter: grayscale(100%);
+    clip-path: circle(50% at center);
+    width: 285px;
+    height: 285px;
+    z-index: 25;
+    position: absolute;
+    transition: 0.3s;
+} 
+
+#cajaContacto button:hover{
+    filter: grayscale(0%);
+}
+
+#cajaContacto h2 {
+    top: 140px;
+    left: 270px;
+    font-family: 'Good Times';
+    transform: rotate(-60deg);
+    font-size: 2.6em;
+    text-transform: uppercase;
+    text-align: center;
+    position: absolute;
+}

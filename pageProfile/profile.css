@@ -1,0 +1,141 @@
+#contenedor_Perfil {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+#particlesJs {
+    width: 100vw;
+    height: 100vh;
+  }
+
+#btn_volverHome {
+    left: 1.5%;
+}
+
+#contenedorPrincipal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contenedorPrincipal img {
+    width: 40%;
+}
+
+#contenedorPrincipal p {
+    margin-bottom: 2%;
+    font-size: 1.5em;
+}
+
+.info {
+    width: 60%;
+    height: 55vh;
+    color: #fff;
+    font-family: 'Lato Regular';
+}
+
+.contenedor_Info {
+    width: 90%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+}
+
+#habilidades, #herramientas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.contenenorGraficas {
+    width: 30%;
+    height: 100px;
+    margin: 0 1.5% 8%;
+    position: relative;
+    filter: grayscale(100%);
+    transition: 0.3s;
+}
+
+.contenenorGraficas:hover {
+    filter: grayscale(0%);
+}
+
+.contenenorGraficas img{
+    top: 30%;
+    left: 41%;
+    width: 17% !important;
+    position: absolute;
+}
+
+.contenenorGraficas h1{
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 3%;
+}
+
+.graficas {
+    width: 100%;
+    height: 100px;
+}
+
+.graficas a {
+    display: none !important;
+}
+
+#menu {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 18vh;
+    color: white;
+}
+
+#menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90%;
+    margin: 0 5%;
+}
+
+#menu li {
+    width: 20%;
+    text-align: center;
+    padding: 2%;
+    font-family: 'Good Times';
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    cursor: pointer;
+    zoom: 0.7;
+    opacity: 0.3;
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+
+#menu li img {
+    width: 15%;
+    height: 35%;
+    margin-bottom: 8%;
+}
+
+#seccion2,
+#seccion3,
+#seccion4 {
+    opacity: 0;
+}
+
+.opcionSeleccionada{
+    opacity: 1 !important;
+    zoom: 1.1 !important;
+    filter: grayscale(0%) !important;
+}

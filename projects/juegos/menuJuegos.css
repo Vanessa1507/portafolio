@@ -1,0 +1,377 @@
+html {
+    width: 2484px;
+    background-color: #040431;
+    background-image: linear-gradient(360deg, #0B0AA2, #040431);
+    overflow-y: hidden;
+}
+
+#particlesJs {
+    position: absolute;
+    width: 2484px;
+}
+
+#btn_volverHome {
+    right: 1.5%;
+}
+
+#contenedor_menuJuegos {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.planeta {
+    width: 100vh;
+    position: relative;
+    overflow: unset;
+    z-index: 2;
+}
+
+.planeta h1,
+h2 {
+    text-align: center;
+    font-family: 'Good Times';
+    color: #fff;
+    cursor: pointer;
+}
+
+.planeta h1 {
+    font-size: 2.5em;
+    position: absolute;
+    left: 55%;
+    top: 38%;
+    transform: rotate(35deg);
+}
+
+.planeta h2 {
+    font-size: 1.1em;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.planeta img {
+    position: absolute;
+    cursor: pointer;
+}
+
+#planeta0 img {
+    width: 150%;
+    left: -50%;
+    top: 25%;
+}
+
+#planeta1 img {
+    width: 50%;
+}
+
+#planeta1 h2 {
+    top: 38%;
+}
+
+#planeta2 img {
+    width: 50%;
+}
+
+#planeta2 h2 {
+    bottom: 41%;
+}
+
+#planeta3 img {
+    width: 70%;
+}
+
+#planeta3 h2 {
+    top: 58%;
+}
+
+#planeta4 img {
+    width: 40%;
+}
+
+#planeta4 h2 {
+    bottom: 5%;
+}
+
+#planeta5 img {
+    width: 50%;
+}
+
+#planeta5 h2 {
+    bottom: 54%;
+}
+
+.elementoSup {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    align-content: center;
+    padding: 1% 0;
+}
+
+
+.elementoInf {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    align-content: center;
+    padding: 1% 0;
+}
+
+#contenedor_imagen {
+    zoom: 0.38;
+    position: absolute;
+    opacity: 0.5;
+    left: 0px;
+    top: 0px;
+    width: 6563px;
+    height: 2324px;
+    z-index: 1;
+}
+
+/* Elementos */
+.el_experiencias {
+    position: absolute;
+}
+
+#aurora1 {
+    background-image: url("../../img/projects/area3/elementos.png");
+    background-position: -13px -2623px;
+    left: -25px;
+    top: -1px;
+    width: 2741px;
+    height: 2305px;
+    z-index: 2;
+}
+
+#aurora2 {
+    background-image: url("../../img/projects/area3/elementos.png");
+    background-position: -13px -21px;
+    left: 2533px;
+    top: -200px;
+    width: 4005px;
+    height: 2541px;
+    z-index: 3;
+}
+
+#grupo_estrellas {
+    left: 188px;
+    top: 52px;
+    width: 6022px;
+    height: 2265px;
+}
+
+#grupo_estrellas div {
+    position: absolute;
+}
+
+#estrella1 {
+    background-image: url("../../img/projects/area3/elementos.png");
+    background-position: -2790px -4235px;
+    left: 5857px;
+    top: 1083px;
+    width: 165px;
+    height: 165px;
+    z-index: 2;
+}
+
+#estrella2 {
+    background-image: url("../../img/projects/area3/elementos.png");
+    background-position: -3222px -4235px;
+    left: 5188px;
+    top: 2079px;
+    width: 165px;
+    height: 165px;
+    z-index: 3;
+}
+
+#estrella3 {
+    background-image: url("../../img/projects/area3/elementos.png");
+    background-position: -3756px -2957px;
+    left: 5758px;
+    top: 596px;
+    width: 165px;
+    height: 164px;
+    z-index: 4;
+}
+
+#estrella4 {
+    background-image: url("../../img/projects/area3/elementos.png");
+    background-position: -2872px -3211px;
+    left: 5201px;
+    top: 0px;
+    width: 104px;
+    height: 104px;
+    z-index: 5;
+}
+
+#estrella5 {
+    background-image: url("../../img/projects/area3/elementos.png");
+    background-position: -3756px -3263px;
+    left: 5161px;
+    top: 1015px;
+    width: 164px;
+    height: 165px;
+    z-index: 6;
+}
+
+#estrella6 {
+    background-image: url("../../img/projects/area3/elementos.png");
+    background-position: -3757px -2623px;
+    left: 697px;
+    top: 1083px;
+    width: 164px;
+    height: 165px;
+    z-index: 7;
+}
+
+#estrella7 {
+    background-image: url("../../img/projects/area3/elementos.png");
+    background-position: -2790px -4576px;
+    left: 1313px;
+    top: 1407px;
+    width: 104px;
+    height: 104px;
+    z-index: 8;
+}
+
+#estrella8 {
+    background-image: url("../../img/projects/area3/elementos.png");
+    background-position: -2812px -3926px;
+    left: 1618px;
+    top: 2100px;
+    width: 164px;
+    height: 165px;
+    z-index: 9;
+}
+
+#estrella9 {
+    background-image: url("../../img/projects/area3/elementos.png");
+    background-position: -3756px -3597px;
+    left: 27px;
+    top: 2080px;
+    width: 165px;
+    height: 164px;
+    z-index: 10;
+}
+
+#estrella10 {
+    background-image: url("../../img/projects/area3/elementos.png");
+    background-position: -2841px -3586px;
+    left: 597px;
+    top: 596px;
+    width: 165px;
+    height: 164px;
+    z-index: 11;
+}
+
+#estrella11 {
+    background-image: url("../../img/projects/area3/elementos.png");
+    background-position: -3755px -4264px;
+    left: 1728px;
+    top: 929px;
+    width: 104px;
+    height: 104px;
+    z-index: 12;
+}
+
+#estrella12 {
+    background-image: url("../../img/projects/area3/elementos.png");
+    background-position: -3568px -4591px;
+    left: 41px;
+    top: 0px;
+    width: 103px;
+    height: 104px;
+    z-index: 13;
+}
+
+#estrella13 {
+    background-image: url("../../img/projects/area3/elementos.png");
+    background-position: -3270px -3570px;
+    left: 0px;
+    top: 1015px;
+    width: 165px;
+    height: 165px;
+    z-index: 14;
+}
+
+#estrella14 {
+    background-image: url("../../img/projects/area3/elementos.png");
+    background-position: -3274px -2902px;
+    left: 3278px;
+    top: 1083px;
+    width: 165px;
+    height: 165px;
+    z-index: 15;
+}
+
+#estrella15 {
+    background-image: url("../../img/projects/area3/elementos.png");
+    background-position: -3206px -4591px;
+    left: 3894px;
+    top: 1407px;
+    width: 104px;
+    height: 104px;
+    z-index: 16;
+}
+
+#estrella16 {
+    background-image: url("../../img/projects/area3/elementos.png");
+    background-position: -3755px -3930px;
+    left: 4199px;
+    top: 2100px;
+    width: 165px;
+    height: 165px;
+    z-index: 17;
+}
+
+#estrella17 {
+    background-image: url("../../img/projects/area3/elementos.png");
+    background-position: -3244px -3926px;
+    left: 2609px;
+    top: 2079px;
+    width: 164px;
+    height: 165px;
+    z-index: 18;
+}
+
+#estrella18 {
+    background-image: url("../../img/projects/area3/elementos.png");
+    background-position: -2842px -2623px;
+    left: 3179px;
+    top: 596px;
+    width: 164px;
+    height: 164px;
+    z-index: 19;
+}
+
+#estrella19 {
+    background-image: url("../../img/projects/area3/elementos.png");
+    background-position: -3304px -2623px;
+    left: 4309px;
+    top: 929px;
+    width: 104px;
+    height: 104px;
+    z-index: 20;
+}
+
+#estrella20 {
+    background-image: url("../../img/projects/area3/elementos.png");
+    background-position: -2872px -2963px;
+    left: 2622px;
+    top: 0px;
+    width: 104px;
+    height: 104px;
+    z-index: 21;
+}
+
+#estrella21 {
+    background-image: url("../../img/projects/area3/elementos.png");
+    background-position: -3274px -3230px;
+    left: 2582px;
+    top: 1015px;
+    width: 164px;
+    height: 165px;
+    z-index: 22;
+}

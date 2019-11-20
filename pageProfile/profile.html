@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Perfil</title>
+
+  <link rel="stylesheet" type="text/css" href="../css/reset.css" />
+  <link rel="stylesheet" type="text/css" href="../css/reset.css" />
+  <link rel="stylesheet" type="text/css" href="../css/basic.css" />
+  <link rel="stylesheet" type="text/css" href="../css/fonts.css" />
+  <link rel="stylesheet" type="text/css" href="./profile.css" />
+
+  <script type="text/javascript" src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+  <script type="text/javascript" src="https://www.amcharts.com/lib/3/pie.js"></script>
+  <script type="text/javascript" src="../js/library/gsap/minified/gsap.min.js"></script>
+  <script type="text/javascript" src="../js/library/circletype.min.js"></script>
+  <script type="text/javascript" src="../js/library/particles.js"></script>
+  <script type="text/javascript" src="./profile.js"></script>
+
+
+
+</head>
+
+<body>
+  <div id="particlesJs"></div>
+  <div id="contenedor_Perfil">
+    <button id="btn_volverHome" class="botonRegresar">
+      <a href="../index.html">
+        <p>Home</p>
+      </a>
+    </button>
+
+    <div id="contenedorPrincipal">
+      <!-- Sobre mi -->
+      <div id="seccion1" class="contenedor_Info">
+        <img src="../img/profile/sobreMi.png" class="img_perfil" />
+        <div class="info" id="sobreMi">
+          <p>Diseñadora interactiva con énfasis en programación y animación 2D. Conocimiento en el uso de lenguajes de
+            programación en HTML, CSS, JavaScript y la implementación de bases de datos con SQL, SQLite, MySQL y PHP
+            para
+            el desarrollo de páginas web y aplicaciones híbridas.</p>
+
+          <p>Conocimiento en el desarrollo de realidad aumentada y realidad virtual haciendo uso de herramientas como
+            Aframe, Unity y Vuforia. Creación de ambientes interactivos, para la generación de nuevas experiencias e
+            interacciones con la implementación de Arduino y Processing.</p>
+
+          <p>Persona respetuosa, responsable y dedicada. Destacada por su habilidad de liderazgo y de adaptarse con
+            facilidad a diversas situaciones a la hora de trabajar en equipo.</p>
+
+          <p>Realizando las tareas asignadas de la mejor forma posible y en busca de contribuir en equipo y cada uno de
+            los objetivos propuestos en un comienzo. Autodidacta en busca de la mejora de nuevos proyectos. </p>
+        </div>
+      </div>
+
+      <!-- Habilidades -->
+      <div id="seccion2" class="contenedor_Info">
+        <img src="../img/profile/habilidades.png" class="img_perfil" />
+        <div class="info" id="habilidades">
+          <div class="contenenorGraficas">
+            <img src="../img/profile/habilidades/programacion.png" />
+            <div id="grafica_habilidad1" class="graficas"></div>
+            <h1>Programación</h1>
+          </div>
+
+          <div class="contenenorGraficas">
+            <img src="../img/profile/habilidades/animacion.png" />
+            <div id="grafica_habilidad2" class="graficas"></div>
+            <h1>Animación</h1>
+          </div>
+
+          <div class="contenenorGraficas">
+            <img src="../img/profile/habilidades/ux.png" />
+            <div id="grafica_habilidad3" class="graficas"></div>
+            <h1>Diseño UX</h1>
+          </div>
+
+          <div class="contenenorGraficas">
+            <img src="../img/profile/habilidades/ui.png" />
+            <div id="grafica_habilidad4" class="graficas"></div>
+            <h1>Diseño UI</h1>
+          </div>
+
+          <div class="contenenorGraficas">
+            <img src="../img/profile/habilidades/equipo.png" />
+            <div id="grafica_habilidad5" class="graficas"></div>
+            <h1>Trabajo en equipo</h1>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Lenguajes -->
+      <div id="seccion3" class="contenedor_Info">
+        <img src="../img/profile/lenguajes.png" class="img_perfil" />
+        <div class="info" id="habilidades">
+          <div class="contenenorGraficas">
+            <img src="../img/profile/lenguajes/html.png">
+            <div id="grafica_lenguajes1" class="graficas"></div>
+            <h1>HTML</h1>
+          </div>
+
+          <div class="contenenorGraficas">
+            <img src="../img/profile/lenguajes/css.png">
+            <div id="grafica_lenguajes2" class="graficas"></div>
+            <h1>CSS</h1>
+          </div>
+
+          <div class="contenenorGraficas">
+            <img src="../img/profile/lenguajes/javaScript.png">
+            <div id="grafica_lenguajes3" class="graficas"></div>
+            <h1>Java Script</h1>
+          </div>
+
+          <div class="contenenorGraficas">
+            <img src="../img/profile/lenguajes/cSharp.png">
+            <div id="grafica_lenguajes4" class="graficas"></div>
+            <h1>C#</h1>
+          </div>
+
+          <div class="contenenorGraficas">
+            <img src="../img/profile/lenguajes/java.png">
+            <div id="grafica_lenguajes5" class="graficas"></div>
+            <h1>Java</h1>
+          </div>
+
+          <div class="contenenorGraficas">
+            <img src="../img/profile/lenguajes/mySql.png">
+            <div id="grafica_lenguajes6" class="graficas"></div>
+            <h1>MySQL</h1>
+          </div>
+        </div>
+      </div>
+
+      <!-- Herrramientas -->
+      <div id="seccion4" class="contenedor_Info">
+        <img src="../img/profile/herramientas.png" class="img_perfil" />
+        <div class="info" id="herramientas">
+          <div class="contenenorGraficas">
+            <img src="../img/profile/herramientas/logoAfter.png">
+            <div id="grafica_herramientas1" class="graficas"></div>
+            <h1>After Effects</h1>
+          </div>
+
+          <div class="contenenorGraficas">
+            <img src="../img/profile/herramientas/logoIllustrator.png">
+            <div id="grafica_herramientas2" class="graficas"></div>
+            <h1>Illustrator</h1>
+          </div>
+
+          <div class="contenenorGraficas">
+            <img src="../img/profile/herramientas/logoPhotoshop.png">
+            <div id="grafica_herramientas3" class="graficas"></div>
+            <h1>Photoshop</h1>
+          </div>
+
+          <div class="contenenorGraficas">
+            <img src="../img/profile/herramientas/logoVisualStudio.png">
+            <div id="grafica_herramientas4" class="graficas"></div>
+            <h1>Visual Studio Code</h1>
+          </div>
+
+          <div class="contenenorGraficas">
+            <img src="../img/profile/herramientas/logoUnity.png">
+            <div id="grafica_herramientas5" class="graficas"></div>
+            <h1>Unity</h1>
+          </div>
+
+          <div class="contenenorGraficas">
+            <img src="../img/profile/herramientas/logoVuforia.png">
+            <div id="grafica_herramientas6" class="graficas"></div>
+            <h1>Vuforia</h1>
+          </div>
+
+          <div class="contenenorGraficas">
+            <img src="../img/profile/herramientas/logoArduino.png">
+            <div id="grafica_herramientas7" class="graficas"></div>
+            <h1>Arduino</h1>
+          </div>
+
+          <div class="contenenorGraficas">
+            <img src="../img/profile/herramientas/logoProcessing.png">
+            <div id="grafica_herramientas8" class="graficas"></div>
+            <h1>Processing</h1>
+          </div>
+
+          <div class="contenenorGraficas">
+            <img src="../img/profile/herramientas/logoGsap.png">
+            <div id="grafica_herramientas9" class="graficas"></div>
+            <h1>Gsap</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="menu">
+    <ul>
+      <li class="botonMenu opcionSeleccionada" id="boton1">
+        <img src="../img/profile/estrellaMenu.png" class="icon_estrella" />
+        <p>Sobre mi</p>
+      </li>
+      <li class="botonMenu" id="boton2">
+        <img src="../img/profile/estrellaMenu.png" class="icon_estrella" />
+        <p>Habilidades</p>
+      </li>
+      <li class="botonMenu" id="boton3">
+        <img src="../img/profile/estrellaMenu.png" class="icon_estrella" />
+        <p>Lenguajes</p>
+      </li>
+      <li class="botonMenu" id="boton4">
+        <img src="../img/profile/estrellaMenu.png" class="icon_estrella" />
+        <p>Herramientas</p>
+      </li>
+    </ul>
+  </div>
+  </div>
+</body>
+
+</html>
