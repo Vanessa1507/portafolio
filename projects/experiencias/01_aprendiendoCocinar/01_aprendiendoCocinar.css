@@ -1,0 +1,111 @@
+html {
+    background-color: #fff;
+    font-family: 'Lato Regular'
+}
+
+#btn_volverHome {
+    right: 1%;
+}
+
+#contenedorSup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#contenedorSup img {
+    width: 100%;
+}
+
+#contenedorSup h1 {
+    width: 40%;
+    background-color: #fff;
+    font-family: 'Good Times';
+    text-align: center;
+    padding: 1% 0;
+    font-size: 1.5em;
+    -webkit-box-shadow: 4px 3px 14px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 4px 3px 14px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 4px 3px 14px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    border: 0px solid #000000;
+    position: absolute;
+    bottom: -9%;
+    color: #F7316F;
+}
+
+#contenedorInfo{
+    width: 60%;
+    margin: 4% 20%;
+}
+
+#tagsProyecto{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3%;
+}
+
+#tagsProyecto div{
+    color: #fff;
+    padding: 1% 3%;
+    margin-right: 2%;
+    text-align: center;
+    -webkit-box-shadow: 4px 3px 14px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 4px 3px 14px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 4px 3px 14px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+}
+
+#tagsProyecto #tag1{
+    background-color: #4545BA;
+}
+
+#tagsProyecto #tag2{
+    background-color: #292970;
+}
+
+#info{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 4%;
+}
+
+#info .itemsInfo{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+}
+
+#info .itemsInfo h2{
+    margin-right: 3%;
+    font-family: 'Lato Black';
+}
+
+#resumen{
+    width: 70%;
+    margin: 0 15%;
+    background-color: #4545BA;
+    padding: 4% 5%;
+    color: #fff;
+    font-size: 1em;
+}
+
+#resumen h2{
+    width: 100%;
+    text-align: center;
+    font-family: 'Lato Black';
+    font-size: 1.4em;
+    margin-bottom: 2%;
+}
+
+.jarallax{
+    height: 100px;
+}

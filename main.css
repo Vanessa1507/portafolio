@@ -7,6 +7,7 @@
 #particlesJs {
     width: 100vw;
     height: 100vh;
+    z-index: -1;
 }
 
 #home_principal {
@@ -51,6 +52,7 @@
     font-family: 'Lato Black';
     font-size: 1.4em;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 #home_instruccion p {

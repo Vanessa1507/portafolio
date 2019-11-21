@@ -16,12 +16,17 @@ window.addEventListener("load", function () {
     window.addEventListener("keydown", e =>{
         if(e.keyCode == 32){
             window.keyPressCount++;
-            if(window.keyPressCount == 10){
-                console.log("llegaste")
-                location.href = "pageMenuProjects/menuProjects.html";                
-            }
+            location.href = "pageMenuProjects/menuProjects.html"; 
+            // if(window.keyPressCount == 10){
+            //     console.log("llegaste")
+            //     location.href = "pageMenuProjects/menuProjects.html";                
+            // }
         }
     })
+
+    document.getElementById("home_instruccion").addEventListener("click", function(){
+        location.href = "pageMenuProjects/menuProjects.html";
+    });
 
     particulas()
 
