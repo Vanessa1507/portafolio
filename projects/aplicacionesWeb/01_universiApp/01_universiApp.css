@@ -35,7 +35,7 @@ html {
     border: 0px solid #000000;
     position: absolute;
     bottom: -9%;
-    color: #E74752;
+    color: #4545BA;
 }
 
 #contenedorInfo {
@@ -63,15 +63,15 @@ html {
 }
 
 #tagsProyecto #tag1 {
-    background-color: #7F3775;
+    background-color: #008EFF;
 }
 
 #tagsProyecto #tag2 {
-    background-color: #68215B;
+    background-color: #005599;
 }
 
 #tagsProyecto #tag3 {
-    background-color: #541346;
+    background-color: #003763;
 }
 
 #info {
@@ -96,7 +96,7 @@ html {
 #resumen {
     width: 70%;
     margin: 0 15%;
-    background-color: #541346;
+    background-color: #008EFF;
     padding: 4% 5%;
     color: #fff;
     font-size: 1.2em;
@@ -117,7 +117,7 @@ html {
 
 .jarallax h2 {
     width: 25%;
-    background-color: #541346;
+    background-color: #008EFF;
     padding: 1% 2%;
     color: #fff;
     font-size: 1em;
@@ -175,7 +175,7 @@ html {
 
 .swiper-pagination-bullet-active {
     color: #fff;
-    background: #541346;
+    background: #008EFF;
     font-family: 'Lato Black';
 }
 
@@ -184,6 +184,7 @@ html {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-bottom: 5%;
 }
 
 .tituloSlide img{
@@ -193,7 +194,7 @@ html {
 
 .tituloSlide h2{
     font-family: 'Good Times';
-    color: #E74752;
+    color: #4545BA;
     font-size: 2em;
 }
 
@@ -201,7 +202,7 @@ html {
     text-align: left;
     font-size: 1em;
     width: 80%;
-    margin-bottom: 8%;
+    margin-bottom: 2%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -212,11 +213,70 @@ html {
     font-size: 1.1em;;
 }
 
+.infoFicha h3{
+    width: 60%;
+    font-family: 'Good Times';
+    color: #16B4EA;
+    font-size: 1.5em;
+    margin-bottom: 1%;
+}
+
 .infoFicha img{
     width: 35%;
 }
 
-.swiper-slide:nth-child(3) .infoFicha p{
+.info{
+    width: 80%;
+    font-size: 1.1em;
+    margin-left: 10%;
+}
+
+.seccionInfo{
+    margin-bottom: 5%;
+}
+
+.info h3{
+    width: 100%;
+    font-family: 'Good Times';
+    color: #16B4EA;
+    font-size: 1.5em;
+    margin-bottom: 2%;
+}
+
+.info p{
+    width: 95%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+
+.seccionInfo img{
+    width: 80%;
+    margin: 0 10%;
+}
+
+.num{
+    color: #16B4EA;
+    font-weight: 600;
+}
+
+.swiper-slide:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.swiper-slide:nth-child(1) .infoFicha{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.swiper-slide:nth-child(1) .infoFicha div{
+    width: 90%;
+    margin-left: 10%;
+}
+
+.swiper-slide:nth-child(1) .infoFicha div p{
     width: 100%;
 }
 
@@ -261,7 +321,8 @@ html {
 
 footer{
     width: 100%;
-    background-image: linear-gradient(#E74752, #541346, #201346);
+    background-color: #001338;
+    background-image: linear-gradient(#16B4EA, #005289, #001338);
     position: relative;
     display: flex;
 }
@@ -278,4 +339,42 @@ footer p{
     width: 100%;
     height: 100%;
     position: absolute;
+}
+
+.seccionFuentes{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.seccionFuentes .swiper-slide .tituloSlide{
+    width: 90%;
+}
+
+.seccionFuentes .infoFicha{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-bottom: 5%;
+}
+
+.seccionFuentes .infoFicha p{
+    width: 90%;
+    margin-left: 5%;
+}
+
+.seccionFuentes .infoFicha img{
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+
+.tituloFuentes{
+    width: 100%;
+    font-family: 'Good Times';
+    color: #16B4EA;
+    font-size: 1.5em;
+    margin-bottom: 2%;
+    margin-left: 20%;
+    text-align: left;
 }
