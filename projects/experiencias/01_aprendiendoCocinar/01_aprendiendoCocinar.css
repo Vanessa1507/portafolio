@@ -35,7 +35,7 @@ html {
     border: 0px solid #000000;
     position: absolute;
     bottom: -9%;
-    color: #F7316F;
+    color: #E74752;
 }
 
 #contenedorInfo {
@@ -63,11 +63,15 @@ html {
 }
 
 #tagsProyecto #tag1 {
-    background-color: #4545BA;
+    background-color: #7F3775;
 }
 
 #tagsProyecto #tag2 {
-    background-color: #292970;
+    background-color: #68215B;
+}
+
+#tagsProyecto #tag3 {
+    background-color: #541346;
 }
 
 #info {
@@ -92,7 +96,7 @@ html {
 #resumen {
     width: 70%;
     margin: 0 15%;
-    background-color: #4545BA;
+    background-color: #541346;
     padding: 4% 5%;
     color: #fff;
     font-size: 1.2em;
@@ -113,7 +117,7 @@ html {
 
 .jarallax h2 {
     width: 25%;
-    background-color: #4545BA;
+    background-color: #541346;
     padding: 1% 2%;
     color: #fff;
     font-size: 1em;
@@ -171,7 +175,7 @@ html {
 
 .swiper-pagination-bullet-active {
     color: #fff;
-    background: #4545BA;
+    background: #541346;
     font-family: 'Lato Black';
 }
 
@@ -189,7 +193,7 @@ html {
 
 .tituloSlide h2{
     font-family: 'Good Times';
-    color: #F7316F;
+    color: #E74752;
     font-size: 2em;
 }
 
@@ -212,7 +216,7 @@ html {
     width: 35%;
 }
 
-.swiper-slide:nth-child(5) .infoFicha p{
+.swiper-slide:nth-child(3) .infoFicha p{
     width: 100%;
 }
 
@@ -257,7 +261,7 @@ html {
 
 footer{
     width: 100%;
-    background-image: linear-gradient(#0B0AA2, #040431);
+    background-image: linear-gradient(#E74752, #541346, #201346);
     position: relative;
     display: flex;
 }

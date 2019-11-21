@@ -46,7 +46,7 @@
 
 #elemento1:hover {
     background-color: #201346;
-    background-image: linear-gradient(#E74752, #541346, #201346);
+    background-image: linear-gradient(-360deg,#E74752, #541346, #201346);
     background-position: left;
 }
 

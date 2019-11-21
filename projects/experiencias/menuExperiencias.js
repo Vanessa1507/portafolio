@@ -22,6 +22,33 @@ window.addEventListener("load", function () {
 
     $.jInvertScroll(['#contenedor_menuExperiencias']);
 
+    for(var i = 1; i <=3; i++){
+        var botonMenu = "planeta" + i;
+        document.getElementById(botonMenu).addEventListener('click', planeta);
+    }
+
+    function planeta() {
+
+        var id = this.getAttribute('id');
+        window.elementoSeleccionado = parseInt(id.substr(7));
+
+        switch(window.elementoSeleccionado){
+            case 1:
+                location.href = "./01_aprendiendoCocinar/01_aprendiendoCocinar.html";
+                break;
+
+            case 2:
+                // location.href = "../projects/aplicacionesWeb/menuAplicacionesWeb.html";
+                console.log("hola" + window.elementoSeleccionado)
+                break;
+
+            case 3:
+                // location.href = "../projects/juegos/menuJuegos.html";
+                console.log("hola" + window.elementoSeleccionado)
+                break;
+        }
+    }
+
 })
 
 function dragScroll() {
